@@ -1,0 +1,22 @@
+{
+  "name": "ironhack-project-3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "ui:format": "prettier -w client/*",
+    "api:format": "prettier -w server/*",
+    "install-deps": "cd client && npm i && cd ../server & npm i"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kpla001/Ironhack-Project-3.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kpla001/Ironhack-Project-3/issues"
+  },
+  "homepage": "https://github.com/kpla001/Ironhack-Project-3#readme"
+}
