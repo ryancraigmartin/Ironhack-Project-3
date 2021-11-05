@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "ui:format": "prettier -w client/*",
-    "api:format": "prettier -w server/*",
+    "ui:format": "npx prettier -w client/*",
+    "api:format": "npx prettier -w server/*",
     "install-deps": "cd client && npm i && cd ../server & npm i"
   },
   "repository": {

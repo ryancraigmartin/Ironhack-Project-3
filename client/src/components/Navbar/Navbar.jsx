@@ -1,10 +1,10 @@
-import React from "react";
-import { Link } from "react-router-dom";
-import "./Navbar.css";
-import * as PATHS from "../../utils/paths";
-import * as CONSTS from "../../utils/consts";
+import React from 'react'
+import { Link } from 'react-router-dom'
+import './Navbar.css'
+import * as PATHS from '../../utils/paths'
+import * as CONSTS from '../../utils/consts'
 
-const Navbar = (props) => {
+const Navbar = props => {
   return (
     <nav>
       <Link to={PATHS.HOMEPAGE} className="nav__projectName">
@@ -36,7 +36,7 @@ const Navbar = (props) => {
         )}
       </div>
     </nav>
-  );
-};
+  )
+}
 
-export default Navbar;
+export default Navbar
