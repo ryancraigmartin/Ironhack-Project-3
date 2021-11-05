@@ -1,5 +1,5 @@
 const router = require('express').Router()
-const Recipe = require('../models/recipe/Recipe')
+const Recipe = require('../models/Recipe.model')
 const isLoggedOut = require('../middleware/isLoggedOut')
 const isLoggedIn = require('../middleware/isLoggedIn')
 
